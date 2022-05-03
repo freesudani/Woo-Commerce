@@ -50,10 +50,10 @@ const Button = styled.button`
       default:
         return `
                 background-color: transparent;
-                color: ${Colors.Text.TextWhite};
+                color: ${Colors.Text.TextPrimary};
                 border : transparent;
                 &:hover {
-                color: ${Colors.Brand.PrimaryDark};
+                color: ${Colors.Text.TextSecondary};
                 }
               `;
     }
