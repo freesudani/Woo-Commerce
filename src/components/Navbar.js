@@ -19,16 +19,20 @@ const LogoIcon = styled.div``;
 const Navigation = styled.ul`
   display: flex;
   align-items: center;
-  margin-left: 14.4rem;
+  margin-left: 6rem;
   list-style: none;
 `;
 
 const NavItem = styled.li`
   margin-left: 3.8rem;
+
+  &:not(:first-child) {
+    margin-left: 0;
+  }
 `;
 
 const LogIn = styled.div`
-  margin-left: 71.7rem;
+  margin-left: 60rem;
 `;
 
 const GetStarted = styled.div`

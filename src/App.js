@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Hero from "./components/Hero";
 
 const AppSec = styled.div`
   display: flex;
@@ -9,7 +10,11 @@ const AppSec = styled.div`
 `;
 
 const App = () => {
-  return <AppSec></AppSec>;
+  return (
+    <AppSec>
+      <Hero />
+    </AppSec>
+  );
 };
 
 export default App;
