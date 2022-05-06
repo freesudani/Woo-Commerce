@@ -77,7 +77,7 @@ export const TextStyles = {
     },
     Body2: {
       fontFamily: "Roboto",
-      FontSize: "1.8px",
+      FontSize: "1.8rem",
       LineHeight: "3rem",
       LetterSpacing: "0",
       FontWeight: 400,

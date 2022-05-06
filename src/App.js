@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 
 const AppSec = styled.div`
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <AppSec>
       <Hero />
+      <Features />
     </AppSec>
   );
 };

@@ -11,23 +11,15 @@ import VectorImg from "../images/Vector.png";
 
 const HeroSec = styled.div`
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    #e5efff 0%,
-    rgba(229, 239, 255, 0.262661) 83.7%,
-    rgba(229, 239, 255, 0) 100%
-  );
-`;
-
-const Vector = styled.div`
-  position: absolute;
-  left: 49.84%;
-  right: -41.88%;
-  top: -9.72%;
-  bottom: 81.76%;
-
-  background: #ffffff;
-  opacity: 0.6;
+  background: url(${VectorImg}),
+    linear-gradient(
+      180deg,
+      #e5efff 0%,
+      rgba(229, 239, 255, 0.262661) 83.7%,
+      rgba(229, 239, 255, 0) 100%
+    );
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, right;
 `;
 
 const HeroBt = styled.div`
@@ -79,9 +71,6 @@ const HeroButtons = styled.div`
 const Hero = () => {
   return (
     <HeroSec>
-      {/*  <Vector>
-        <img src={VectorImg} alt="vector" />
-      </Vector> */}
       <Navbar />
       <HeroBt>
         <HeroText>
