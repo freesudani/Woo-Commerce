@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Develop from "./components/Develop";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
+import People from "./components/People";
 import Testimonials from "./components/Testimonials";
 
 const AppSec = styled.div`
@@ -19,6 +20,7 @@ const App = () => {
       <Features />
       <Develop />
       <Testimonials />
+      <People />
     </AppSec>
   );
 };
