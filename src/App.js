@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import CTA from "./components/CTA";
 import Develop from "./components/Develop";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
@@ -21,6 +22,7 @@ const App = () => {
       <Develop />
       <Testimonials />
       <People />
+      <CTA />
     </AppSec>
   );
 };
