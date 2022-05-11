@@ -3,6 +3,7 @@ import styled from "styled-components";
 import CTA from "./components/CTA";
 import Develop from "./components/Develop";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import People from "./components/People";
 import Testimonials from "./components/Testimonials";
@@ -23,6 +24,7 @@ const App = () => {
       <Testimonials />
       <People />
       <CTA />
+      <Footer />
     </AppSec>
   );
 };
