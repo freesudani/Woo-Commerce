@@ -121,7 +121,7 @@ const ParagSq3 = styled.div`
   margin-top: -31rem;
   width: 61.8rem;
   height: 33.1rem;
-  background-color: red;
+  background-color: ${Colors.Text.TextWhite};
   border-radius: 20px;
   z-index: 1;
 `;
