@@ -1,13 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import { Colors } from "../theme/Theme";
 import H2 from "../theme/H2.styled";
 import Subtitle1 from "../theme/Subtitle1.styled";
 import Body2 from "../theme/Body2.styled";
-import { Colors } from "../theme/Theme";
 import Button from "../theme/Button.styled";
 import BoxImage1 from "../images/Rectangle 223.png";
 import BoxImage2 from "../images/Rectangle 224.png";
 import BoxImage3 from "../images/Rectangle 225.png";
+import Image226 from "../images/Rectangle 226.png";
+import Image227 from "../images/Rectangle 227.png";
+import Image228 from "../images/Rectangle 228.png";
 import Image16 from "../images/image 16.png";
 import AppleImage from "../images/kisspng-apple-pay-google-pay-apple-wallet-payment-5b074a74632137 1.png";
 import Image17 from "../images/image 17.png";
@@ -15,9 +18,6 @@ import Image18 from "../images/image 18.png";
 import Image19 from "../images/image 19.png";
 import Image20 from "../images/image 20.png";
 import Image22 from "../images/image 22.png";
-import Image226 from "../images/Rectangle 226.png";
-import Image227 from "../images/Rectangle 227.png";
-import Image228 from "../images/Rectangle 228.png";
 
 const FeaturesSec = styled.div``;
 

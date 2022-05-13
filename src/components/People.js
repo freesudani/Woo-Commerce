@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import H2 from "../theme/H2.styled";
 import Body1 from "../theme/Body1.styled";
-import PeopleImage from "../images/image 24.png";
 import Rectangle235 from "../images/Rectangle 235.png";
 import Ellipse34 from "../images/Ellipse 34.png";
 import Ellipse36 from "../images/Ellipse 36.png";
 import Ellipse32 from "../images/Ellipse 32.png";
 import Group13 from "../images/Group 13.png";
 import Group5 from "../images/Group 5.png";
+import PeopleImage from "../images/image 24.png";
 
 const PeopleSec = styled.div`
   display: flex;

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
+import { Colors } from "../theme/Theme";
 import H1 from "../theme/H1.styled";
 import Body1 from "../theme/Body1.styled";
-import { Colors } from "../theme/Theme";
 import Button from "../theme/Button.styled";
 import Lead2 from "../theme/Lead2.styled";
 import FeatureImg from "../images/featured-image.png";

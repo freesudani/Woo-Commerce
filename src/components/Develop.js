@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import Rectangle233 from "../images/Rectangle 233.png";
-import Rectangle236 from "../images/Rectangle 236.png";
+import { Colors } from "../theme/Theme";
 import Subtitle2 from "../theme/Subtitle2.styled";
 import Body2 from "../theme/Body2.styled";
 import Button from "../theme/Button.styled";
-import { Colors } from "../theme/Theme";
 import W from "../images/w.png";
 import Ellipse31 from "../images/Ellipse 31.png";
 import Ellipse32 from "../images/Ellipse 32.png";
 import Ellipse33 from "../images/Ellipse 33.png";
 import Ellipse34 from "../images/Ellipse 34.png";
+import Rectangle233 from "../images/Rectangle 233.png";
+import Rectangle236 from "../images/Rectangle 236.png";
 import Group7 from "../images/Group 7.png";
 import Group8 from "../images/Group 8.png";
 

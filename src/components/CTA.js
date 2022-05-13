@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { Colors } from "../theme/Theme";
 import Subtitle3 from "../theme/Subtitle3.styled";
 import Button from "../theme/Button.styled";
-import { Colors } from "../theme/Theme";
 import Ellipse35 from "../images/Ellipse 35.png";
 
 const CTASec = styled.div`

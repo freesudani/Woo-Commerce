@@ -5,12 +5,12 @@ import Search from "./Search";
 import Button from "../theme/Button.styled";
 
 const NavSec = styled.div`
+  display: flex;
   height: 4.7rem;
   max-width: 181rem;
   margin-top: 3.7rem;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
   align-items: center;
 `;
 

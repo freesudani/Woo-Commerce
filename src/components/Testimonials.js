@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import H2 from "../theme/H2.styled";
 import { Colors } from "../theme/Theme";
 import Body3 from "../theme/Body3.styled";
+import H2 from "../theme/H2.styled";
+import Button from "../theme/Button.styled";
 import CommaImage from "../images/”.png";
 import Ellipse15 from "../images/Ellipse 15.png";
 import Ellipse26 from "../images/Ellipse 26.png";
@@ -14,7 +15,6 @@ import bgGradient from "../images/Group 5.png";
 import Group6 from "../images/Group 6.png";
 import ArrowLeft from "../images/Union (2).png";
 import ArrowRight from "../images/Union (3).png";
-import Button from "../theme/Button.styled";
 
 const TestiSec = styled.div`
   position: relative;
